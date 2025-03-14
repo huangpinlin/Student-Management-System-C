@@ -21,16 +21,4 @@ graph TD
     C --> E[保存到students.dat]
     D --> F[读取students.dat]
 
-##汉字校验（假设UTF-8编码）
-for (int i = 0; i < strlen(name); i++) {
-    if ((unsigned char)name[i] < 0x80) {
-        printf("错误：姓名必须为汉字！");
-        break;
-    }
-}
-###难点：Windows中文乱码
-- **问题现象**：控制台输出乱码  
-- **解决方案**：  
-  1. 设置控制台编码为UTF-8  
-  2. 修改字体为“新宋体”  
-  3. 使用 `wprintf` 输出宽字符  
+
