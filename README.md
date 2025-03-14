@@ -51,5 +51,5 @@
 ### 安装步骤
 1. 克隆仓库：
    bash
-   git clone https://github.com/你的用户名/Student-Management-System-C.git
+   git clone https://github.com/huangpinlin/Student-Management-System-C.git
    cd Student-Management-System-C
