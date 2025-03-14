@@ -21,7 +21,7 @@ graph TD
     C --> E[保存到students.dat]
     D --> F[读取students.dat]
 
-// 汉字校验（假设UTF-8编码）
+##汉字校验（假设UTF-8编码）
 for (int i = 0; i < strlen(name); i++) {
     if ((unsigned char)name[i] < 0x80) {
         printf("错误：姓名必须为汉字！");
