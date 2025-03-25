@@ -48,8 +48,4 @@
 - GCC编译器（推荐 [MinGW](https://www.mingw-w64.org/) 或 [GCC for Linux](https://gcc.gnu.org/)）
 - UTF-8终端（Windows需启用新版控制台）
 
-### 安装步骤
-1. 克隆仓库：
-   bash
-   git clone https://github.com/huangpinlin/Student-Management-System-C.git
-   cd Student-Management-System-C
+
